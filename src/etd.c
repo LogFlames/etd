@@ -241,7 +241,7 @@ int main() {
                                     cursor_position_col = terminal_size_cols;
                                 }
                                 break;
-                            case 015:
+                            case 011:
                                 current_item->open = !current_item->open;
                                 break;
                             default:
