@@ -7,3 +7,11 @@ My project for learning c, work in progress
 # Keybinds
 Currently only dvorak support
 
+> e -> move down
+> u -> move up
+> h -> move right
+> t -> move left
+> tab -> open current tab
+> shift + tab -> close current tab, close parent if current is closed or have no children
+> . -> exit
+

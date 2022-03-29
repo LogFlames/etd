@@ -1,0 +1,2 @@
+Cursor position should be global, moving it up by 100 should move the window if necessary
+

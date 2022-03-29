@@ -9,6 +9,10 @@ all: etd
 run: etd
 	./$^
 
+input_code: src/input_code.c
+	$(CC) $(CFLAGS) -o $@ $^
+	./$@
+	
 etd: src/etd.c
 	$(CC) $(CFLAGS) -o $@ $^
 
